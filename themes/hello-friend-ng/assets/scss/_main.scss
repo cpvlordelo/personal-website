@@ -28,7 +28,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
+  
   // Default
   background-color: $light-background;
   color: $light-color;
@@ -124,8 +124,9 @@ img {
     margin-left: auto;
   }
   &.circle {
-    border-radius: 50%;
-    max-width: 25%;
+    border-radius: 27%;
+    /*max-width: 25px;*/
+    /*max-height: 250px;*/
     margin: auto;
   }
 }
