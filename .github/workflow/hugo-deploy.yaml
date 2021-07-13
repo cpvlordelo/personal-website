@@ -2,7 +2,7 @@
 # Workflow to build and deploy site to Github Pages using Hugo
 
 # Name of Workflow
-name: github pages
+name: Hugo Deploy Github Pages
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -15,13 +15,13 @@ jobs:
   # This workflow contains a single job called "deploy"
   deploy:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
     # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
-    - name: Checkout
+    - name: Git Checkout
       uses: actions/checkout@v2
       with:
           submodules: true  # Fetch Hugo themes
@@ -31,7 +31,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-          hugo-version: 'latest'
+          hugo-version: '0.83.1'
 
     # Step 3 - Clean and don't fail
     - name: Clean public directory
@@ -40,7 +40,7 @@ jobs:
     # Step 4 - Builds the site using the latest version of Hugo
     # Also specifies the theme we want to use
     - name: Build
-      run: hugo --theme=fresh
+      run: hugo --theme=hello-friend-ng
 
     # Step 5 - Create cname file. This file is necessary to use a different domain name on gh-pages
     #- name: Create cname file
@@ -50,6 +50,15 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: cpvlordelo/cpvlordelo.github.io
           publish_dir: ./public
-view rawhugo_gh-pages.yml hosted with ❤ by GitHub
+          user_name: cpvlordelo
+          user_email: cpvlordelo@gmail.com
+          publish_branch: master
+        #   cname: example.com
+      #with:
+      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      #    publish_dir: ./public
+      #    publish_branch: master
+      #  #   cname: example.com
