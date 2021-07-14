@@ -194,8 +194,8 @@ disableHugoGeneratorInject = false
         url = "projects/"
         
   [languages.pt-br]
-    title = "Título Português"
-    homeSubtitle  = "Aprendizado de máquina"
+    title = "Carlos Lordelo"
+    homeSubtitle  = "Engenheiro de Processamento de Sinais de Áudio e Aprendizado de Máquina"
     subtitle = "Aprendizado de Máquina"
     weight = 1.0
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -225,6 +225,7 @@ disableHugoGeneratorInject = false
       [[languages.pt-br.menu.main]]
         identifier = "projects"
         name = "Projetos"
+        title = "Projetos"
         weight = 3.0
         url = "pt-br/projects/"
 
