@@ -1,7 +1,7 @@
 +++
 title = "(Hu)go Template Primer"
 description = ""
-type = ["posts","post"]
+type = [draft]
 tags = [
     "go",
     "golang",

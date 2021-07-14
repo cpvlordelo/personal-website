@@ -194,12 +194,23 @@ disableHugoGeneratorInject = false
         url = "projects/"
         
   [languages.pt-br]
-      title = "Titulo Portugues"
-      homeSubtitle  = "Aprendizado de máquina"
-      subtitle = "Aprendizado de Máquina"
-      weight = 1.0
-      copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    title = "Título Português"
+    homeSubtitle  = "Aprendizado de máquina"
+    subtitle = "Aprendizado de Máquina"
+    weight = 1.0
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     
+    [languages.pt-br.params.logo]
+      logoMark     = ">"
+      logoText     = "$ cd /home/"
+      logoHomeLink = "/pt-br/"
+      # Set true to remove the logo cursor entirely.
+      logoCursorDisabled = false
+      # Set to a valid CSS color to change the cursor in the logo.
+      # logoCursorColor    = "#67a2c9"
+      # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+      logoCursorAnimate  = "3s"
+
     [languages.pt-br.menu]
       [[languages.pt-br.menu.main]]
         identifier = "about"

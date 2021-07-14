@@ -16,6 +16,14 @@
             {{- if .Site.Params.EnableThemeToggle }}
                 <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
             {{- end}}
+
+            {{ if .IsTranslated }}
+                <span> |
+                {{ range .Translations }}
+                    <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared" style="padding-bottom:0px;padding-top:3px"></span></a>
+                {{ end}}
+                </span>
+            {{ end }}
         </span>
     </span>
 </header>
