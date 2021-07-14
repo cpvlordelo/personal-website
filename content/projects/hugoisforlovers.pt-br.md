@@ -8,9 +8,9 @@ featuredpath = "date"
 linktitle = ""
 slug = "Debuter avec Hugo"
 title = "Débuter avec Hugo"
-type = "draft"
 [ author ]
   name = "Hugo Authors"
+draft = true
 +++
 
 ## Étape 1. Installer Hugo

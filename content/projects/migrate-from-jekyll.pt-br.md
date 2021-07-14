@@ -8,9 +8,9 @@ featuredpath = ""
 linktitle = ""
 slug = "Migrer vers Hugo depuis Jekyll"
 title = "Migrer vers Hugo depuis Jekyll"
-type = [draft]
 [ author ]
   name = "Hugo Authors"
+draft = true
 +++
 
 ## Déplacez le contenu statique vers `static`

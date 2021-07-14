@@ -8,9 +8,9 @@ featuredpath = "date"
 linktitle = ""
 slug = "Introduction aux modeles Hugo"
 title = "Introduction aux modèles (Hu)go"
-type = [draft]
 [ author ]
   name = "Michael Henderson"
+draft = true
 +++
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour

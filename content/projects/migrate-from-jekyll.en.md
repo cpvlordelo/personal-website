@@ -4,13 +4,12 @@ author:
 date: 2014-03-10
 linktitle: Migrating from Jekyll
 title: Migrate to Hugo from Jekyll
-type:
-- draft
 weight: 10
 series:
 - Hugo 101
 aliases:
 - /blog/migrate-from-jekyll/
+draft: true
 ---
 
 ## Move static content to `static`
