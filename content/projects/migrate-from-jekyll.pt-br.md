@@ -1,4 +1,5 @@
 +++
+draft = "true"
 categories = ["Hugo", "Jekyll"]
 date = "2014-03-10"
 description = ""
@@ -10,7 +11,6 @@ slug = "Migrer vers Hugo depuis Jekyll"
 title = "Migrer vers Hugo depuis Jekyll"
 [ author ]
   name = "Hugo Authors"
-draft = true
 +++
 
 ## Déplacez le contenu statique vers `static`

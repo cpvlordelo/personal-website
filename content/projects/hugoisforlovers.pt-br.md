@@ -1,4 +1,5 @@
 +++
+draft = "true"
 categories = ["Hugo"]
 date = "2014-04-02"
 description = ""
@@ -10,7 +11,6 @@ slug = "Debuter avec Hugo"
 title = "Débuter avec Hugo"
 [ author ]
   name = "Hugo Authors"
-draft = true
 +++
 
 ## Étape 1. Installer Hugo

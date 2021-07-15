@@ -1,4 +1,5 @@
 +++
+draft = "true"
 categories = ["Go"]
 date = "2014-04-02"
 description = ""
@@ -10,7 +11,6 @@ slug = "Introduction aux modeles Hugo"
 title = "Introduction aux modèles (Hu)go"
 [ author ]
   name = "Michael Henderson"
-draft = true
 +++
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour

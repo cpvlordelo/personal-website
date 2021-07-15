@@ -1,4 +1,5 @@
 +++
+draft = "true"
 title = "Getting Started with Hugo"
 description = ""
 tags = [
@@ -15,7 +16,6 @@ categories = [
 series = ["Hugo 101"]
 [ author ]
   name = "Hugo Authors"
-draft = true
 +++
 
 ## Step 1. Install Hugo
