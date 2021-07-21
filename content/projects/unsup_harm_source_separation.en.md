@@ -11,7 +11,7 @@ draft: false
 ---
 
 ## Description
-This repository includes all the code I have done in *2017* for my Bachelor's Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+This [repository](https://github.com/cpvlordelo/source-separation-AHS) includes all the code I have done in *2017* for my Bachelor's Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
 
 * Z. Duan, Y. Zhang, C. Zhang and Z. Shi, "__Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling__", in _IEEE Transactions on Audio, Speech, and Language Processing_, vol. 16, no. 4, pp. 766-778, May 2008, [doi: 10.1109/TASL.2008.919073](https://doi.org/10.1109/TASL.2008.919073).
 
