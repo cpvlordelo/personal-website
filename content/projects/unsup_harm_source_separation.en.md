@@ -1,7 +1,7 @@
 ---
 author:
   name: "Carlos Lordelo"
-date: 09-2017
+date: 2017-09
 linktitle: Unsupervised Harmonic Source Separation
 title: Unsupervised Harmonic Source Separation
 weight: 10
