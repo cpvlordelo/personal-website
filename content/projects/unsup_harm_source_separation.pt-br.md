@@ -1,7 +1,7 @@
 ---
 author:
   name: "Carlos Lordelo"
-date: 2017-09
+date: 2017-09-10
 linktitle: Separação Não-Supervisionada de Fontes Harmônicas
 title: Separação Não-Supervisionada de Fontes Harmônicas
 weight: 10
