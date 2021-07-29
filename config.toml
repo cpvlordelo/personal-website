@@ -166,6 +166,14 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/lordelo-carlos"
 
+  [[params.social]]
+    name = "googlescholar"
+    url  = "https://scholar.google.com/citations?user=PfNrjh0AAAAJ"
+
+  [[params.social]]
+    name = "orcid"
+    url  = "https://orcid.org/0000-0002-7906-4677"
+
 [languages]
   [languages.en]
     title = "Carlos Lordelo"
@@ -193,6 +201,12 @@ disableHugoGeneratorInject = false
         weight = 3.0
         url = "projects/"
         
+     [[languages.en.menu.main]]
+        identifier = "Awards"
+        name = "Awards"
+        weight = 4.0
+        url = "awards/"
+
   [languages.pt-br]
     title = "Carlos Lordelo"
     homeSubtitle  = "Engenheiro de Processamento de Sinais de Áudio e Aprendizado de Máquina"
@@ -228,6 +242,12 @@ disableHugoGeneratorInject = false
         title = "Projetos"
         weight = 3.0
         url = "pt-br/projects/"
+      [[languages.pt-br.menu.main]]
+        identifier = "awards"
+        name = "Prêmios"
+        title = "Prêmios"
+        weight = 3.0
+        url = "pt-br/awards/"
 
 #[menu]
 #  [[menu.main]]
