@@ -177,8 +177,8 @@ disableHugoGeneratorInject = false
 [languages]
   [languages.en]
     title = "Carlos Lordelo"
-    homeSubtitle  = "Audio Signal Processing and ML Engineer"
-    subtitle = "Audio Signal Processing and ML Engineer"
+    homeSubtitle  = "Audio Signal Processing and Machine Learning"
+    subtitle = "Audio Signal Processing and Machine Learning"
     weight = 1.0
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     
@@ -209,8 +209,8 @@ disableHugoGeneratorInject = false
 
   [languages.pt-br]
     title = "Carlos Lordelo"
-    homeSubtitle  = "Engenheiro de Processamento de Sinais de Áudio e Aprendizado de Máquina"
-    subtitle = "Aprendizado de Máquina"
+    homeSubtitle  = "Processamento de Sinais de Áudio e Aprendizado de Máquina"
+    subtitle = "Processamento de Sinais de Áudio e Aprendizado de Máquina"
     weight = 1.0
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     

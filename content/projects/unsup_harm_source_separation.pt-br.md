@@ -10,27 +10,16 @@ series:
 draft: false
 ---
 
-## Description
-This [repository](https://github.com/cpvlordelo/source-separation-AHS) includes all the code I have done in *2017* for my Bachelor's Degree Final project. The project consisted of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
+[VERSÃO EM PORTUGUÊS EM CONSTRUÇÃO. A SEGUIR SEGUE A VERSÃO EM INGLÊS]
+
+
+I have done this project for my Bachelor's Degree thesis. It consists of my own implementation in MATLAB of the algorithm for unsupervised source separation based on the concept of Average Harmonic Structure (AHS) modelling that has been proposed on the following paper:
 
 * Z. Duan, Y. Zhang, C. Zhang and Z. Shi, "__Unsupervised Single-Channel Music Source Separation by Average Harmonic Structure Modeling__", in _IEEE Transactions on Audio, Speech, and Language Processing_, vol. 16, no. 4, pp. 766-778, May 2008, [doi: 10.1109/TASL.2008.919073](https://doi.org/10.1109/TASL.2008.919073).
 
-The results I obtained using my own implementation were quite similar to the results of the authors. I have written a complete report (in Portuguese) of this project, which can be found [here](http://monografias.poli.ufrj.br/monografias/monopoli10022740.pdf)
+The results I obtained using my own implementation were quite similar to the results of the authors. I have written a detailed report (in Portuguese) of this project, which can be found in [my bachelor's thesis](http://monografias.poli.ufrj.br/monografias/monopoli10022740.pdf). The code with my own implementation for this work can be found in [this repository](https://github.com/cpvlordelo/source-separation-AHS).
 
-## Previous Code Utilised
-Since the original authors did not provide the original code they utilised in their experiments, I have done my own implementation and used the same audio signals that they used in the paper in my tests. The original audio files can be downloaded from the [website with the paper results](http://mperesult.googlepages.com/musicseparationresults).
+## Overall Description
+The basic functioning of this algorithm starts with the the assumption that when playing in narrow pitch ranges, different monophonic harmonic instrumental sources in a piece of music often have different but stable harmonic structures. So, monophonic sources can be uniquely characterised by a model that is learned by computing their average harmonic structure througout the music signal. 
 
-Moreover, part of the code (mostly the part related to AHS computation) has been taken from another publication, which also used the concept of AHS, but focused on multi-pitch estimation. 
-
-* Z. Duan, B. Pardo, and C. Zhang, "__Multiple Fundamental Frequency Estimation by Modeling Spectral Peaks and Non-Peak Regions__", in _IEEE Transactions on Audio, Speech, and Language Processing_, vol. 18, no. 8, pp. 2121-2133, 2010
-
-The full code related to this publication can be found on [Zhiyao Duan's personal webpage](http://www2.ece.rochester.edu/projects/air/publications.html). I have taken some of their code, adapted for this project and added in this repo. In the header of each file or function you can find the information regarding its authorship if it has not been originally created by me. 
-
-## Main Usage
-The main code is the file `MainSeparationAHS.m`, which will read the parameters of the configuration file `SetParameters_music.m` and will perform the whole analysis of the mixture file. The mixture file should be set up by editing the macro `AUDIO_FILE` in `line 14` of the script `SetParameters_music.m`. As default, this line reads
-
-```
-AUDIO_FILE = 'Mixture.wav'
-```
-
-Detailed explanation of the other parameters in this script can be found in the code as comments.
+Given the number of instrumental sources, this unsupervised method learns those models directly from the mixed signal by clustering the harmonic structures extracted from different frames. The corresponding sources are then extracted from the mixed signal using the models by subtraction on the spectrogram domain. It is important to note that this method has been proposed forseparating monophonic instrumental sources.

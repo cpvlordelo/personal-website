@@ -2,8 +2,8 @@
 author:
   name: "Carlos Lordelo"
 date: 2020-12-07
-linktitle: Tap & Fiddle Dataset
-title: Tap & Fiddle Dataset
+linktitle: "'Tap & Fiddle' Music Dataset"
+title: "'Tap & Fiddle' Music Dataset"
 weight: 10
 series:
 - Dataset, Source Separation
@@ -12,7 +12,7 @@ draft: false
 
 In this project we have curated **28** stereo recordings of traditional Scandinavian fiddle tunes with accompanying foot-tapping, which is standard performance practice within these musical styles. Its corpora contains not only the mixed signals, but also the two isolated instrumental tracks that can be used to train supervised models for source separation.
 
-* The fiddle track (harmonic); 
+* The fiddle (or violin) track (harmonic); 
 * The foot-tapping track (percussive).  
 
 Moreover, foot-tapping in performance of fiddle music has not been systematically studied yet, even though it very often appears as an integral part of the musical expression in Scandinavian fiddle music as a percussive accompaniment. Hence, apart from contributing to the music source separation community, it is expected that _Tap & Fiddle_ can also be used by researchers and enthusiasts working with analysis of fiddle music as well as studies of metrical expression in music in general.
@@ -31,7 +31,7 @@ Each isolated signal was recorded by one fiddle player in a natural 30 squared m
 
 The audio files are uncompressed and saved as stereo files with sampling frequency of 44100 Hz and 32 bits per sample. The average duration for a recording in _Tap & Fiddle_ is __65__ seconds, which totalise around `65 x 28 = 30m 20s` of full play time.
 
-## Download Licensing
+## Download and Licensing
 If you want to download the dataset, you can find it [here](https://zenodo.org/record/4308731). You just have to fill a a small form with youra email address and explain why you want to download the dataset for.
 
 The ___Tap & Fiddle Dataset___ has been compiled by Carlos Lordelo, Sven Ahlbäck, Emmanouil Benetos, Simon Dixon and Patrik Ohlsson and is offered for non-commercial research use only. The data is provided for educational purposes only and the material should not be used for any commercial purpose.
