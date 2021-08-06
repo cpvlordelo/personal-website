@@ -11,7 +11,7 @@ Aqui está uma lista das minhas publicações por ano.
 Nota: *Os PDFs são apenas para uso pessoal. Direitos autorais são reservados pelas editoras*
 
 ### 2021
-* **C. Lordelo**, E. Benetos, S. Dixon e S. Ahlbäck, "Pitch-informed instrument streaming " in *International Society for Music Information Retrieval Conference (ISMIR)*, Outubro 2021. &nbsp; [<sub><sup>[pdf]</sup></sub>](https://arxiv.org/pdf/2107.13617.pdf)
+* **C. Lordelo**, E. Benetos, S. Dixon e S. Ahlbäck, "Pitch-Informed Instrument Assignment Using a Deep Convolutional Network with Multiple Kernel Shapes" in *International Society for Music Information Retrieval Conference (ISMIR)*, Outubro 2021. &nbsp; [<sub><sup>[pdf]</sup></sub>](https://arxiv.org/pdf/2107.13617.pdf)
   
 * **C. Lordelo**, E. Benetos, S. Dixon, S. Ahlbäck e P. Ohlsson, "Adversarial Unsupervised Domain Adaptation for Harmonic-Percussive Source Separation", em *IEEE Signal Processing Letters*, vol. 28, pp. 81-85, 2021, doi: 10.1109/LSP.2020.3045915. &nbsp;[<sub><sup>[pdf]</sup></sub>](https://arxiv.org/pdf/2101.00701.pdf) [<sub><sup>[website]</sup></sub>](http://c4dm.eecs.qmul.ac.uk/auda-hpss/)
   
